@@ -1,4 +1,152 @@
-.hh {
-    width: 1000px;
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('/projeto/imag/FundoMain.png');
+
+
+}
+
+header {
+    background-color: #850f0f;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/*tela de login*/
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+
+}
+
+.login-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #121111;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: #ccc;
+}
+
+
+.login-card h2 {
+    text-align: center;
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-login {
+    width: 100%;
+    background-color: #982a25;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.btn-login:hover {
+    background-color: #52100e;
+}
+
+.btn-2 {
+    width: 100%;
+    background-color: #982a25;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-2:hover {
+    background-color: #52100e;
+}
+
+.aa {
+    margin-top: 10px;
+    text-align: left;
+
+}
+
+.aa :hover {
+    color: rgb(0, 0, 219);
+    text-decoration: underline;
+}
+
+.img-container {
+    flex: 1;
     text-align: right;
+    padding-right: 20px;
+}
+
+.img-fluid {
+
+    max-width: 100%;
+    height: auto;
+
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-container {
+        text-align: center;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
 }
