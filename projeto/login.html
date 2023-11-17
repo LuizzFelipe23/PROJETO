@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Seus outros links de CSS aqui -->
+    <title>Legendary Motor Sport</title>
+    <style>
+        /* Estilos para a tela de login */
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+
+
+        }
+
+        .login-card {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #121111;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+        }
+
+        .login-card h2 {
+            text-align: center;
+
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            margin-right: 20px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .btn-login {
+            width: 100%;
+            background-color: #982a25;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+
+        }
+
+        .btn-login:hover {
+            background-color: #52100e;
+        }
+
+        .btn-2 {
+            width: 100%;
+            background-color: #982a25;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .btn-2:hover {
+            background-color: #52100e;
+        }
+
+        .aa {
+            margin-top: 10px;
+            text-align: left;
+
+        }
+
+        .img-container {
+            flex: 1;
+            text-align: right;
+            padding-right: 20px;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            .login-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .img-container {
+                text-align: center;
+                padding-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Seu código existente aqui -->
+    <center>
+        <img class="img-fluid" src="img/legendary-logo.png" alt="">
+
+        <div class="login-container">
+            <div class="login-card">
+                <h2>Tela de Login</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="username" class="form-label">Nome de Usuário</label>
+                        <input type="text" class="form-control" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-label">Senha</label>
+                        <input type="password" class="form-control" id="password" name="password" required>
+                    </div>
+                    <button type="submit" class="btn-login" onclick="entrar()">Entrar</button><br>
+                    <button type="submit" class="btn-2">Cadastrar</button>
+                    <div class="aa">
+                        <a href="#">esqueceu a senha?</a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </center>
+
+    <script>
+        function entrar() {
+            var email = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            // Simulação de autenticação (substitua com lógica de autenticação real)
+            if (email === "ruanfss123@gmail.com" && password === "suasenha") {
+                alert("Login bem-sucedido!");
+                window.location.href = "index.html";
+                // Adicione aqui a lógica para redirecionar para a tela inicial
+
+            } else {
+                alert("Credenciais inválidas. Tente novamente.");
+            }
+        }
+
+    </script>
+
+    <!-- Seu código existente aqui -->
+
+</body>
+
+</html>
