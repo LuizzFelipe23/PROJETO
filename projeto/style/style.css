@@ -1,9 +1,13 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-image: url('/projeto/imag/FundoMain.png');
+    background-image: url('/projeto/imag/bg-pattern.png');
+    background-color: #52100e;
 
+}
 
+.ceu {
+    position: fixed;
 }
 
 header {
@@ -149,4 +153,119 @@ nav ul li a:hover {
         padding-right: 0;
         margin-bottom: 20px;
     }
+}
+
+
+
+/* pagina1 codigo do indio*/
+
+.main-box {
+    position: absolute;
+    width: 900px;
+    background-color: #240000;
+    right: 0;
+    left: 0;
+    margin-top: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 1100px;
+    z-index: 100;
+}
+
+.main-title {
+    position: relative;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 22px;
+    color: white;
+}
+
+.main-content {
+    padding-top: 30px;
+    padding-left: 0px;
+    font-size: 22px;
+    color: white;
+}
+
+.top-img {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+
+
+}
+
+.top {
+    top: 48px;
+    position: absolute;
+    font-size: 22px;
+    color: white;
+}
+
+.minha-box1 {
+    width: 200px;
+    height: 200px;
+    background-color: #0a0808;
+    padding: 30px;
+    margin: 20px;
+    position: absolute;
+    top: 425px;
+    left: 235px;
+    z-index: 900;
+}
+
+.container {
+    width: 220px;
+    height: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #c9c8c4;
+    padding: 20px;
+    border-radius: 0px;
+    z-index: 10000;
+}
+
+p {
+    color: #000000;
+    text-align: left;
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}
+
+.container-img {
+    position: absolute;
+    margin-top: -10px;
+    right: 0px;
+    border-radius: 10px;
+    border-color: #d9d9d9;
+    z-index: 10000;
+
+}
+
+
+
+.minha-box2 {
+    width: 200px;
+    height: 200px;
+    background-color: #0a0808;
+    padding: 30px;
+    margin: 20px;
+    position: absolute;
+    top: 425px;
+    left: 539px;
+    z-index: 1000;
+}
+
+.minha-box3 {
+    width: 200px;
+    height: 200px;
+    background-color: #0a0808;
+    padding: 30px;
+    margin: 20px;
+    position: absolute;
+    top: 425px;
+    left: 840px;
+    z-index: 1000;
 }
