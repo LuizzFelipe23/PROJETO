@@ -1,10 +1,12 @@
 body {
-    min-height: 900px; /* Correção: px em vez de x */
-    z-index: 2; /* Correção: Removendo duplicatas e ajustando valores conforme necessário */
-    background-color: #480a0a;
-    background-image: url("bg-pattern.png");
     margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('/projeto/imag/bg-pattern.png');
+    background-color: #52100e;
+
 }
+
+
 
 .main-box {
     position: relative;
@@ -28,28 +30,32 @@ body {
     position: absolute;
     font-size: 22px;
     color: white;
-    z-index: 3; /* Ajuste conforme necessário */
+    z-index: 3;
+    /* Ajuste conforme necessário */
 }
 
 .product-container {
     display: flex;
-    justify-content: space-between; /* Adição: Espaço uniforme entre os elementos */
+    justify-content: space-between;
+    /* Adição: Espaço uniforme entre os elementos */
     position: relative;
-     /* Adição: Para que o posicionamento absoluto funcione dentro do flex container */
+    /* Adição: Para que o posicionamento absoluto funcione dentro do flex container */
 }
 
 .product-image-container {
     flex: 1;
     margin-top: 60px;
-    }
+}
 
 
 .product-image img {
-        width: 100%; /* Ajuste conforme necessário */
-        height: 100%; /* Ajuste conforme necessário */
-        display: block;
-    }
-    
+    width: 100%;
+    /* Ajuste conforme necessário */
+    height: 100%;
+    /* Ajuste conforme necessário */
+    display: block;
+}
+
 
 
 .product-details {
@@ -64,11 +70,13 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 24px;
-    z-index: 2; /* Ajuste conforme necessário */
+    z-index: 2;
+    /* Ajuste conforme necessário */
 }
 
 .Texto {
-     color: #f5f5dc; /* Bege Claro */
+    color: #f5f5dc;
+    /* Bege Claro */
     font-style: italic;
     font-family: monospace;
     font-size: 48px;
