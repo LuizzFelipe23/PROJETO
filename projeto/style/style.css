@@ -1,13 +1,8 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-image: url('/projeto/imag/bg-pattern.png');
+    background-image: url('/projeto/imag/bg-pattern.png'); 
     background-color: #52100e;
-
-}
-
-.ceu {
-    position: fixed;
 }
 
 header {

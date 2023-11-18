@@ -1,10 +1,12 @@
 body {
-    min-height: 900px; /* Correção: px em vez de x */
-    z-index: 2; /* Correção: Removendo duplicatas e ajustando valores conforme necessário */
-    background-color: #480a0a;
-    background-image: url("bg-pattern.png");
     margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('/projeto/imag/bg-pattern.png'); 
+    background-color: #52100e;
+    background-size: cover;
+    z-index: 1; 
 }
+
 
 .main-box {
     position: relative;
@@ -12,7 +14,7 @@ body {
     max-width: 1392px;
     margin: 0 auto;
     background-color: #240000;
-    min-height: 800px;
+    min-height: 2000px;
     z-index: 1;
 }
 
@@ -28,29 +30,25 @@ body {
     position: absolute;
     font-size: 22px;
     color: white;
-    z-index: 3; /* Ajuste conforme necessário */
+    z-index: 3;
 }
 
 .product-container {
     display: flex;
-    justify-content: space-between; /* Adição: Espaço uniforme entre os elementos */
+    justify-content: space-between;
     position: relative;
-     /* Adição: Para que o posicionamento absoluto funcione dentro do flex container */
 }
 
 .product-image-container {
     flex: 1;
     margin-top: 60px;
-    }
-
+}
 
 .product-image img {
-        width: 100%; /* Ajuste conforme necessário */
-        height: 100%; /* Ajuste conforme necessário */
-        display: block;
-    }
-    
-
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 
 .product-details {
     flex: 1;
@@ -64,20 +62,62 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 24px;
-    z-index: 2; /* Ajuste conforme necessário */
+    z-index: 2;
 }
 
 .Texto {
-     color: #f5f5dc; /* Bege Claro */
+    color: white;
     font-style: italic;
     font-family: monospace;
     font-size: 48px;
-    margin-bottom: 0px;
+    position: relative;
+    left: 140px; /* ou a direção desejada */
 }
 
 .description {
-    color: #d3d3d3;
-    font-size: 30px;
+    color: white;
+    font-size: 32px;
     line-height: 1.6;
     font-family: 'Merriweather', serif;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.color-palette {
+    display: flex;
+    margin-top: 10px;
+}
+
+.color {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: -90px;
+    margin-left: 120px; /* Correção aqui */
+    top: -400px; 
+}
+
+.color.selected {
+    border: 2px solid #3d3b3b;
+}
+
+.Cores {
+    color: #d3d3d3;
+    font-size: 42px;
+    line-height: 1.6;
+    font-family: 'Merriweather', serif;
+    flex: 1;
+    padding: 60px;
+    Margin-left: 20px;
+    top: 400px; 
+}
+.Texto1 {
+    color: white;
+    font-family: monospace;
+    margin-bottom: 0px;
+    font-weight: bold; 
+    font-size: 42px;
+    margin-right: -90px;
+    margin-left: 40px; 
+    top: -400px;
 }
