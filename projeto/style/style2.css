@@ -1,9 +1,10 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-image: url('/projeto/imag/bg-pattern.png');
+    background-image: url('/projeto/imag/bg-pattern.png'); 
     background-color: #52100e;
-
+    background-size: cover;
+    z-index: 1; 
 }
 
 
@@ -13,7 +14,7 @@ body {
     max-width: 1392px;
     margin: 0 auto;
     background-color: #240000;
-    min-height: 2000px;
+    min-height: 200px;
     z-index: 1;
 }
 
@@ -70,17 +71,27 @@ body {
     font-family: monospace;
     font-size: 48px;
     position: relative;
-    left: 140px;
-    /* ou a direção desejada */
+    left: 140px; /* ou a direção desejada */
 }
+
+.texto2 {
+    color: white;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 48px;
+    position: relative;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
 
 .description {
     color: white;
-    font-size: 32px;
+    font-size: 29px;
     line-height: 1.6;
     font-family: 'Merriweather', serif;
     font-weight: lighter;
-    font-style: italic;
+    margin-left: 30px;
 }
 
 .color-palette {
@@ -93,9 +104,8 @@ body {
     height: 60px;
     border-radius: 50%;
     margin-right: -90px;
-    margin-left: 120px;
-    /* Correção aqui */
-    top: -400px;
+    margin-left: 120px; /* Correção aqui */
+    top: -400px; 
 }
 
 .color.selected {
@@ -110,16 +120,73 @@ body {
     flex: 1;
     padding: 60px;
     Margin-left: 20px;
-    top: 400px;
+    top: 400px; 
 }
-
 .Texto1 {
     color: white;
     font-family: monospace;
     margin-bottom: 0px;
-    font-weight: bold;
+    font-weight: bold; 
     font-size: 42px;
     margin-right: -90px;
-    margin-left: 40px;
+    margin-left: 60px; 
     top: -400px;
+}
+
+
+.stats-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.stats-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.stats-item {
+    margin-bottom: 20px;
+}
+
+.stat-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+
+.stat-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #333;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 40%; 
+}
+
+
+    .fill-bar {
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: width 0.5s ease-in-out;
+
+}
+
+.icon-img {
+    width: 180px; /* Defina o tamanho desejado */
+    height: auto;
+    margin-left: 200px;
 }
