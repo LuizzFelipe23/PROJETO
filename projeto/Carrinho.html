@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LEGENDARY MOTORSPORT</title>
-  <link rel="stylesheet" href="style/style3.css">
+  <link rel="stylesheet" href="style3.css">
 </head>
 
 <body>
@@ -12,13 +13,40 @@
     <span>LEGENDARY MOTORSPORT</span>
   </header>
   <main>
-    <div class="page-title">Seu carrinho</div>
-    <div class="content">
-   </div>
+    <div class="img-container">
+      <img src="/projeto/imag/cars/bene.png" alt="Descrição da imagem">
+      <div class="description">
+        <h2>Benefactor</h2>
+        <p>O Benefactor 9F é um elegante carro esportivo que combina desempenho excepcional com um design moderno. Com sua carroceria aerodinâmica e linhas elegantes, o 9F é uma escolha popular entre os entusiastas de carros esportivos em Los Santos. Seu motor potente e suspensão ajustada oferecem uma experiência de condução emocionante, tornando-o adequado para corridas de alta velocidade ou para aqueles que simplesmente buscam estilo nas ruas da cidade.</p>
+        <ul class="stats-list">
+          <li>
+            <strong>Velocidade Máxima:</strong>
+            <span class="label" id="speedLabel"></span>
+            <div class="bar" id="speedBar"></div>
+          </li>
+          <li>
+            <strong>Aceleração:</strong>
+            <span class="label" id="accelerationLabel"></span>
+            <div class="bar" id="accelerationBar"></div>
+          </li>
+          <li>
+            <strong>Frenagem:</strong>
+            <span class="label" id="brakeLabel"></span>
+            <div class="bar" id="brakeBar"></div>
+          </li>
+          <li>
+            <strong>Tração:</strong>
+            <span class="label" id="tractionLabel"></span>
+            <div class="bar" id="tractionBar"></div>
+          </li>
+        </ul>
+        <button id="orderButton">Encomendar</button>
+      </div>
+      <div class="side-bar left-bar"></div>
+      <div class="side-bar right-bar"></div>
+    </div>
   </main>
-
-  <div class="product-container">
-    <img src="/projeto/imag/cars/Bene9f.png">
-  </div>
+  <script src="Carrinho.js"></script>
 </body>
+
 </html>
