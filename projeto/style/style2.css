@@ -1,10 +1,9 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-image: url('/projeto/imag/bg-pattern.png'); 
+    background-image: url('/projeto/imag/bg-pattern.png');
     background-color: #52100e;
-    background-size: cover;
-    z-index: 1; 
+
 }
 
 
@@ -71,7 +70,8 @@ body {
     font-family: monospace;
     font-size: 48px;
     position: relative;
-    left: 140px; /* ou a direção desejada */
+    left: 140px;
+    /* ou a direção desejada */
 }
 
 .description {
@@ -93,8 +93,9 @@ body {
     height: 60px;
     border-radius: 50%;
     margin-right: -90px;
-    margin-left: 120px; /* Correção aqui */
-    top: -400px; 
+    margin-left: 120px;
+    /* Correção aqui */
+    top: -400px;
 }
 
 .color.selected {
@@ -109,15 +110,16 @@ body {
     flex: 1;
     padding: 60px;
     Margin-left: 20px;
-    top: 400px; 
+    top: 400px;
 }
+
 .Texto1 {
     color: white;
     font-family: monospace;
     margin-bottom: 0px;
-    font-weight: bold; 
+    font-weight: bold;
     font-size: 42px;
     margin-right: -90px;
-    margin-left: 40px; 
+    margin-left: 40px;
     top: -400px;
 }
