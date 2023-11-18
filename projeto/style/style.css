@@ -3,13 +3,20 @@ body {
     font-family: 'Arial', sans-serif;
     background-image: url('/projeto/imag/bg-pattern.png'); 
     background-color: #52100e;
+<<<<<<< HEAD
 }
+=======
+
+}
+
+>>>>>>> 3e5c8f719f47c078832df301f22a5eefd483c2dc
 
 header {
     background-color: #850f0f;
     color: #fff;
     padding: 10px;
     display: flex;
+    border: 2px solid #000000;
     justify-content: space-between;
     align-items: center;
 }
