@@ -143,3 +143,20 @@ main {
 #botaoPedido:hover {
   background-color: #f39c12;
 }
+
+footer {
+
+  background-color: #000000;
+  color: #c0c0c0;
+  padding: 20px;
+  bottom: 0;
+  position: relative;
+
+  /* Adicione essa propriedade se quiser que o rodapé fique fixo */
+}
+
+
+.logos-rodape img {
+  margin-right: 40px;
+  align-items:center;
+}
