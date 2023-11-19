@@ -1,0 +1,162 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #101010;
+  color: #fff;
+
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: large;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.container-imagem {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #1f1f1f;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.info-veiculo img {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-right: 20px;
+}
+
+.info-veiculo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-veiculo p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.descricao {
+  width: 60%;
+  box-sizing: border-box;
+  position: relative;
+  color: #f5f5f5;
+  font-size: 20px;
+}
+
+.descricao h2 {
+  margin-bottom: 10px;
+  color: #f39c12;
+}
+
+.descricao p {
+  margin-bottom: 15px;
+}
+
+.lista-estatisticas {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-estatisticas li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.barra {
+  height: 15px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #444;
+  margin-top: 5px;
+}
+
+.rotulo {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.barra-lateral {
+  position: absolute;
+  height: 100%;
+  width: 10px;
+  background-color: #333;
+}
+
+.barra-esquerda {
+  left: -10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.barra-direita {
+  right: -10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#speedBar {
+  background-color: #f39c12;
+}
+
+#accelerationBar {
+  background-color: #f39c12;
+}
+
+#brakeBar {
+  background-color: #f39c12;
+}
+
+#tractionBar {
+  background-color: #f39c12;
+}
+
+#botaoPedido {
+  padding: 10px 20px;
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#botaoPedido:hover {
+  background-color: #f39c12;
+}
+
+footer {
+
+  background-color: #000000;
+  color: #c0c0c0;
+  padding: 20px;
+  bottom: 0;
+  position: relative;
+
+  /* Adicione essa propriedade se quiser que o rodapé fique fixo */
+}
+
+
+.logos-rodape img {
+  margin-right: 40px;
+  align-items:center;
+}
