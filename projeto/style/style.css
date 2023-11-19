@@ -199,11 +199,10 @@ header {
 }
 
 .top-img {
-    display: flex;
-    max-width: 2444px;
+    display: block;
+    margin: 0 auto;
+    height: 350px;
     width: 100%;
-    overflow: hidden;
-
 }
 
 .top {
@@ -211,12 +210,12 @@ header {
     position: absolute;
     font-size: 22px;
     color: white;
-
+    display: inline-flexbox;
 }
 
 .main-box {
     position: relative;
-    width: 80%;
+    width: 75%;
     max-width: 1392px;
     margin: 0 auto;
     background-color: #240000;
@@ -263,9 +262,14 @@ header {
     right: 0;
     /* Alinha à direita da caixa-carro */
     width: 40px;
+    max-width: 50px;
 
 }
 
+.estilo-nome {
+    background: rgb(168, 160, 160);
+    background: linear-gradient(90deg, rgba(168, 160, 160, 1) 21%, rgba(69, 66, 66, 1) 54%, rgba(128, 113, 113, 1) 100%);
+}
 
 .icone,
 p {
@@ -280,11 +284,11 @@ p {
 .bnt-compra {
     margin-left: 60px;
     padding: 12px;
-    background-color: #ffffff;
+    background-color: #edd9d96b;
     border-radius: 10px;
     position: absolute;
-    bottom: 20px;
-    right: 35px;
+    bottom: 15px;
+    right: 15px;
 }
 
 .bnt-compra:hover {
@@ -328,6 +332,6 @@ footer {
 
 
 .logos-rodape img {
-    margin-right: 100px;
+    margin-right: 120px;
 
 }
