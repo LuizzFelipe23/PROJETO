@@ -15,4 +15,19 @@ document.querySelectorAll('.valor-carro').forEach(function (botao) {
     });
 });
 
+/* função do login*/
+function entrar() {
+    var email = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    // Simulação de autenticação (substitua com lógica de autenticação real)
+    if (email === "usuario" && password === "usuario") {
+
+        window.location.replace("index.html");
+        // Adicione aqui a lógica para redirecionar para a tela inicial
+
+    } else {
+        alert("Credenciais inválidas. Tente novamente.");
+    }
+}
 
