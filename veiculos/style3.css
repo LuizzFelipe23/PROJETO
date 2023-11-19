@@ -4,6 +4,7 @@ body {
   padding: 0;
   background-color: #101010;
   color: #fff;
+  
 }
 
 header {
@@ -11,6 +12,7 @@ header {
   color: #fff;
   padding: 20px;
   text-align: center;
+  font-size: large;
 }
 
 main {
@@ -19,9 +21,10 @@ main {
   align-items: center;
   flex-direction: column;
   padding: 20px;
+  font-size: larger;
 }
 
-.img-container {
+.container-imagem {
   display: flex;
   align-items: center;
   position: relative;
@@ -31,44 +34,54 @@ main {
   overflow: hidden;
 }
 
-.img-container img {
+.info-veiculo img {
   max-width: 100%;
   height: auto;
-  margin-right: 20px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  margin-right: 20px;
 }
 
-.description {
+.info-veiculo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-veiculo p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.descricao {
   width: 60%;
   box-sizing: border-box;
   position: relative;
   color: #f5f5f5;
   font-size: 20px;
-   
 }
 
-.description h2 {
+.descricao h2 {
   margin-bottom: 10px;
   color: #f39c12;
 }
 
-.description p {
+.descricao p {
   margin-bottom: 15px;
 }
 
-.stats-list {
+.lista-estatisticas {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.stats-list li {
+.lista-estatisticas li {
   margin-bottom: 20px;
   position: relative;
 }
 
-.bar {
+.barra {
   height: 15px;
   width: 100%;
   border-radius: 8px;
@@ -76,26 +89,26 @@ main {
   margin-top: 5px;
 }
 
-.label {
+.rotulo {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-.side-bar {
+.barra-lateral {
   position: absolute;
   height: 100%;
   width: 10px;
   background-color: #333;
 }
 
-.left-bar {
+.barra-esquerda {
   left: -10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
-.right-bar {
+.barra-direita {
   right: -10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -117,7 +130,7 @@ main {
   background-color: #f39c12;
 }
 
-#orderButton {
+#botaoPedido {
   padding: 10px 20px;
   background-color: #f39c12;
   color: #fff;
@@ -128,6 +141,8 @@ main {
   transition: background-color 0.3s ease;
 }
 
-#orderButton:hover {
+#botaoPedido:hover {
   background-color: #f39c12;
 }
+
+
