@@ -2,8 +2,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-image: url('/projeto/imag/bg-pattern.png');
     background-color: #52100e;
+    background-image: url('/projeto/imag/bg-pattern.png');
+
 }
 
 
@@ -185,20 +186,23 @@ header {
 }
 
 .main {
+    display: flex;
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
 .main-content {
+    display: flex;
     font-size: 22px;
     color: white;
 }
 
 .top-img {
     display: flex;
-    margin: 0;
+    max-width: 2444px;
     width: 100%;
+    overflow: hidden;
 
 }
 
@@ -273,9 +277,9 @@ p {
     cursor: pointer;
 }
 
-.valor-carro {
+.bnt-compra {
     margin-left: 60px;
-    padding: 9px;
+    padding: 12px;
     background-color: #ffffff;
     border-radius: 10px;
     position: absolute;
@@ -283,8 +287,8 @@ p {
     right: 35px;
 }
 
-.valor-carro:hover {
-    padding: 8px;
+.bnt-compra:hover {
+    padding: 10px;
     cursor: pointer;
     background-color: #850f0f;
 }
