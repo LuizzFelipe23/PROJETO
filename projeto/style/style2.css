@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-image: url('/projeto/imag/bg-pattern.jpg'); 
+    background-image: url('/projeto/imag/bg-pattern.png'); 
     background-color: #52100e;
     background-size: cover;
     z-index: 1; 
@@ -100,6 +100,7 @@ body {
     font-size: 48px;
     position: relative;
     left: 140px; /* ou a direção desejada */
+
 }
 
 
@@ -117,6 +118,7 @@ body {
     width: 50px; /* Defina o tamanho desejado */
     height: auto; /* Mantém a proporção original da imagem */
     margin-left: 0;
+
 }
 
 .description {
@@ -223,4 +225,7 @@ h1 {
     width: 180px; /* Defina o tamanho desejado */
     height: auto;
     margin-left: 200px;
+    margin-left: 40px; 
+    top: -400px;
 }
+
