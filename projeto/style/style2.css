@@ -1,12 +1,11 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-image: url('/projeto/imag/bg-pattern.png'); 
+    background-image: url('/projeto/imag/bg-pattern.jpg'); 
     background-color: #52100e;
     background-size: cover;
     z-index: 1; 
 }
-
 
 .main-box {
     position: relative;
@@ -35,19 +34,48 @@ body {
 
 .product-container {
     display: flex;
-    justify-content: space-between;
-    position: relative;
+    flex-direction: row; /* Alterado para linha para alinhar a descrição à esquerda da imagem */
+    align-items: center;
+    
 }
 
+.buy-button {
+    width: 20%;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #428bca; /* Cor de fundo do botão */
+    border: 1px solid #357ebd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 15px 20px;
+    border: none;
+    margin-left: 70%;
+    margin-top: -1500px;
+    
+}
+
+
+.buy-button:hover {
+    background-color: #3071a9; 
+}
+
+
 .product-image-container {
-    flex: 1;
-    margin-top: 60px;
+    order: 2; 
+    flex: 1; 
+    margin-right: 20px;
 }
 
 .product-image img {
     width: 100%;
     height: 100%;
     display: block;
+    margin-left: 1%;
 }
 
 .product-details {
@@ -74,6 +102,7 @@ body {
     left: 140px; /* ou a direção desejada */
 }
 
+
 .texto2 {
     color: white;
     font-style: italic;
@@ -84,6 +113,11 @@ body {
     font-weight: bold;
 }
 
+.icon-img {
+    width: 50px; /* Defina o tamanho desejado */
+    height: auto; /* Mantém a proporção original da imagem */
+    margin-left: 0;
+}
 
 .description {
     color: white;
