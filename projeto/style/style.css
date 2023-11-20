@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: 'Arial', sans-serif;
     background-color: #52100e;
-    background-image: url('/projeto/imag/bg-pattern.png');
+    background-image: url('/projeto/index2/bg-pattern.png');
 
 }
 
@@ -23,7 +23,7 @@ body {
     font-size: 30px;
     width: 100%;
     transition: background-color 0.3s ease-in-out;
-    /* Adiciona transição de cor de fundo */
+
 }
 
 .fixed {
@@ -32,7 +32,7 @@ body {
     width: 100%;
     z-index: 1000;
 
-    /* Cor de fundo quando fixo */
+
 }
 
 
@@ -58,7 +58,7 @@ body {
     color: #ffcc00;
 }
 
-/*tela de login*/
+
 
 .login-container {
     display: flex;
@@ -170,7 +170,6 @@ body {
 
 
 
-/* Tela inicial*/
 
 
 header {
@@ -258,9 +257,7 @@ header {
 .icone {
     position: absolute;
     top: 0;
-    /* Alinha no topo da caixa-carro */
     right: 0;
-    /* Alinha à direita da caixa-carro */
     width: 40px;
     max-width: 50px;
 
@@ -301,7 +298,6 @@ p {
     background-color: #000000;
 }
 
-/* Adicione essas regras ao seu arquivo CSS */
 
 @media (max-width: 768px) {
     .top-img {
@@ -317,7 +313,7 @@ p {
     }
 }
 
-/* Roda pe*/
+
 
 footer {
 
@@ -327,7 +323,6 @@ footer {
     bottom: 0;
     position: relative;
 
-    /* Adicione essa propriedade se quiser que o rodapé fique fixo */
 }
 
 
