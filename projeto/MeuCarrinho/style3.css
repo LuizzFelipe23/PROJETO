@@ -144,21 +144,25 @@ main {
   background-color: #f39c12;
 }
 
-footer {
-
+footer.main-pe {
   background-color: #000;
-    color: #c0c0c0;
-    padding: 10px;
-    text-align: center;
-    position: relative;
-    width: 98,5%;
-    margin: 0 auto;
-    clear: both;
-    top: 90px;
+  color: #c0c0c0;
+  padding: 10px;
+  bottom: 0;
+  position: relative;
 }
 
+footer {
+  background-color: #000;
+  color: #c0c0c0;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  width: 98, 5%;
+  margin: 0 auto;
+  clear: both;
+}
 
 .logos-rodape img {
-  margin-right: 40px;
-  align-items:center;
+  margin-right: 50px;
 }
