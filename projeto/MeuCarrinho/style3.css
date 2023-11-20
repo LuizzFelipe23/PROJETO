@@ -146,13 +146,15 @@ main {
 
 footer {
 
-  background-color: #000000;
-  color: #c0c0c0;
-  padding: 20px;
-  bottom: 0;
-  position: relative;
-
-  /* Adicione essa propriedade se quiser que o rodapé fique fixo */
+  background-color: #000;
+    color: #c0c0c0;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    width: 98,5%;
+    margin: 0 auto;
+    clear: both;
+    top: 90px;
 }
 
 
