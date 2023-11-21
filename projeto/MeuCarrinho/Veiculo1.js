@@ -46,3 +46,39 @@ function handleOrder(price) {
     // Adicione aqui a lógica para processar o pedido com o preço fornecido
     console.log(`Pedido recebido com sucesso! Preço: $${price}`);
 }
+function mostrarModalCompra() {
+    var modal = document.getElementById('modalCompra');
+    modal.style.display = 'block';
+}
+
+function fecharModalCompra() {
+    var modal = document.getElementById('modalCompra');
+    modal.style.display = 'none';
+}
+
+document.getElementById('botaoPedido').addEventListener('click', function () {
+    mostrarModalCompra();
+});
+
+
+function mostrarModalCompra() {
+    var modal = document.getElementById('modalCompra');
+    modal.style.display = 'block';
+}
+
+function fecharModalCompra() {
+    var modal = document.getElementById('modalCompra');
+    modal.style.display = 'none';
+}
+
+function voltarParaPaginaInicial() {
+    // Redirecionar para a página inicial ou tomar a ação desejada
+    window.location.href = "/projeto/index.html";
+}
+
+document.getElementById('botaoPedido').addEventListener('click', function () {
+    mostrarModalCompra();
+    // Mostrar botão de voltar após a compra
+    document.getElementById('botaoVoltar').style.display = 'block';
+});
+
