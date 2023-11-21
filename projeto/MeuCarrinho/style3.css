@@ -60,6 +60,7 @@ main {
   align-items: center;
   flex-direction: column;
   padding: 20px;
+  margin-top: 80px
 }
 
 .container-imagem {
