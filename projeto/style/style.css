@@ -50,7 +50,7 @@ body {
 
 #navbar ul li a {
     text-decoration: none;
-    color: #000000;
+    color: #090909;
     font-weight: bold;
     transition: color 0.3s ease-in-out;
 }
@@ -217,7 +217,7 @@ header {
     width: 75%;
     max-width: 1392px;
     margin: 0 auto;
-    background-color: #240000;
+    background-color: #000000;
     min-height: 800px;
     z-index: 1;
     border: 2px solid rgb(0, 0, 0);
@@ -300,12 +300,9 @@ p {
     position: absolute;
     bottom: 15px;
     right: 15px;
-    box-shadow: none; /* Remover sombra padrão do navegador */
-    /* Restaurar a aparência padrão do botão clicado */
+    box-shadow: none;
     -webkit-tap-highlight-color: transparent;
     outline: none;
-
-    /* Adicionar transição para uma mudança mais suave */
     transition: background-color 0.3s ease-in-out;
 }
 
