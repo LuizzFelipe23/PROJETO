@@ -6,8 +6,8 @@ body {
 }
 
 #navbar {
-    background-color: #F39c12;
-    color: #000000;
+    background-color: #850f0f;
+    color: #fff;
     padding: 20px;
     border: 2px solid #000000;
     display: flex;
@@ -16,8 +16,6 @@ body {
     font-size: 30px;
     width: 100%;
     transition: background-color 0.3s ease-in-out;
-    font-weight: bold;
-
 }
 
 .fixed {
@@ -40,7 +38,7 @@ body {
 
 #navbar ul li a {
     text-decoration: none;
-    color: #090909;
+    color: #fff;
     font-weight: bold;
     transition: color 0.3s ease-in-out;
 }
@@ -51,20 +49,18 @@ body {
 
 .main-box {
     position: relative;
-    width: 75%;
+    width: 80%;
     max-width: 1392px;
     margin: 0 auto;
-    background-color: #2a2727;
-    min-height: 800px;
+    background-color: #240000;
+    min-height: 200px;
     z-index: 1;
-    border: 2px solid rgb(0, 0, 0);
-    margin-bottom: 100px;
 }
 
 .top-img {
     display: flex;
     margin: 0 auto;
-    height: 500px;
+    height: 400px;
     width: 100%;
 }
 
@@ -84,8 +80,7 @@ body {
 }
 
 .buy-link:hover {
-    background-color: rgb(10, 10, 10);
-    color: white;
+    background-color: red;
 }
 
 .buy-link {
@@ -94,8 +89,8 @@ body {
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: #000000;
-    background-color: #f39c12;
+    color: #fff;
+    background-color: #52100e;
     border: 2px solid #000000;
     border-radius: 10px;
     cursor: pointer;
