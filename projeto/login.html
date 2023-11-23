@@ -5,12 +5,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
+
 
 
     <title>Legendary Motor Sport</title>
 
 </head>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: rgb(18, 18, 18);
+        background-image: url('/projeto/Index2/bg-pattern.png');
+
+    }
+
+    .login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+
+
+    }
+
+    .login-card {
+        width: 300px;
+        padding: 20px;
+        border: 3px solid #121111;
+        border-radius: 10px;
+        background-color: #d1cec9;
+    }
+
+
+    .login-card h2 {
+        text-align: center;
+
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+        margin-right: 20px;
+
+    }
+
+    .form-label {
+        display: block;
+        margin-bottom: 5px;
+
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+
+    .btn-login {
+        width: 100%;
+        background-color: #F39c12;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+
+    }
+
+    .btn-login:hover {
+        background-color: #656005;
+    }
+
+    .aa {
+        text-decoration: none;
+        margin-top: 10px;
+        text-align: left;
+        color: #090909;
+        font-weight: bold;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .aa :hover {
+        color: rgb(253, 253, 255);
+        text-decoration: underline;
+    }
+
+    .img-container {
+        flex: 1;
+        text-align: right;
+        padding-right: 20px;
+    }
+
+    .img-fluid {
+
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    @media (max-width: 768px) {
+        .login-container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .img-container {
+            text-align: center;
+            padding-right: 0;
+            margin-bottom: 20px;
+        }
+    }
+</style>
 
 <body>
 
@@ -21,7 +130,9 @@
         <div class="login-container">
             <div class="login-card">
                 <h2>Tela de Login</h2>
-                <form>
+                <!-- ... seu HTML existente ... -->
+
+                <form onsubmit="return entrar();">
                     <div class="form-group">
                         <label for="username" class="form-label">Nome de Usuário</label>
                         <input type="text" class="form-control" id="username" name="username" required>
@@ -30,18 +141,37 @@
                         <label for="password" class="form-label">Senha</label>
                         <input type="password" class="form-control" id="password" name="password" required>
                     </div>
-                    <button type="submit" class="btn-login" onclick="entrar()">Entrar</button><br>
-                    <button type="submit" class="btn-2">Cadastrar</button>
+                    <button type="submit" class="btn-login">Entrar</button><br>
+
                     <div class="aa">
                         <a href="#">esqueceu a senha?</a>
                     </div>
-
                 </form>
+
+                <!-- ... seu JavaScript existente ... -->
+
             </div>
         </div>
     </center>
 
-    <script src="main.js">
+    <script>
+        function entrar() {
+            var email = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            // Simulação de autenticação (substitua com lógica de autenticação real)
+            if (email === "usuario" && password === "123") {
+                // Redirecionar apenas se as credenciais forem válidas
+                window.location.replace("index.html");
+                // Adicione aqui a lógica para redirecionar para a tela inicial
+                return false; // Impede o envio padrão do formulário
+            } else {
+                alert("Credenciais inválidas. Tente novamente.");
+                return false; // Impede o envio padrão do formulário
+            }
+        }
+
+
     </script>
 
 </body>
